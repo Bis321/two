@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-reusable:
-    uses: bis321/two/.github/workflows/reusable.yml@main
+    uses: Bis321/two/.github/workflows/reusable.yml@main
     with:
       username: 'GitHubUser123'
