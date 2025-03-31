@@ -1,0 +1,12 @@
+name: Call Reusable Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-reusable:
+    uses: bis321/two/.github/workflows/reusable.yml@main
+    with:
+      username: 'GitHubUser123'
