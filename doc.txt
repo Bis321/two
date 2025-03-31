@@ -5,3 +5,6 @@ git commit -m "Initial commit"
 
 git branch -M main  # Ensure branch is 'main'
 git push -u origin main
+
+#many time command is not working (push)
+git pull origin main --rebase

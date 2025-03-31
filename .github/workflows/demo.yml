@@ -6,6 +6,9 @@ on:
                 default: 'hello'
                 required: false
                 type: string
+    push:
+        branches:
+            -main
 
 jobs:
     print-username:
